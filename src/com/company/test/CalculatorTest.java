@@ -46,7 +46,7 @@ class CalculatorTest {
     @Test
     @DisplayName("Grundlegende Division")
     void testDivide() {
-        try{
+        try {
             assertEquals(10, c.divide(20,2), shouldWorkBcBasics);
             assertEquals(7, c.divide(21,3), shouldWorkBcBasics);
             assertEquals(0, c.divide(0,2), shouldWorkBcBasics);
